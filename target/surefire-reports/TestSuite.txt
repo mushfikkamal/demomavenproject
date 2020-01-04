@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 3.287 s <<< FAILURE! - in TestSuite
+ToolsQA.Homepage.clicking  Time elapsed: 0.036 s  <<< FAILURE!
+java.lang.NullPointerException
+	at ToolsQA.Homepage.clicking(Homepage.java:31)
+
+ToolsQA.Homepage.clickmain  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+	at ToolsQA.Homepage.clickmain(Homepage.java:21)
+
+ToolsQA.Homepage.teardown  Time elapsed: 0.01 s  <<< FAILURE!
+java.lang.NullPointerException
+	at ToolsQA.Homepage.teardown(Homepage.java:45)
+
